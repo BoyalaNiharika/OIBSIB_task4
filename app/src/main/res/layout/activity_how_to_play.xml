@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3db"
+    tools:context=".HowToPlay">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_numbercount"
+        android:text="How to play ?"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructions"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/round_numbercount"
+        android:text="1. Firstly, Choose the Topic\n\n2. Answer all the questions by clicking NEXT\n\nNOTE :- Make sure that you complete your Quiz in time given above at top right corner\n\n3. Submit the Quiz\n\n4. See the score you have Achieved\n\n5. If you want to attempt the Quiz again then click on Start New Quiz\n\n\n       This is all about this Quiz App"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/steps"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/round_numbercount"
+        android:text="Back"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/quiz_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="80dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/title" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/topics"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Topics"
+        android:layout_below="@+id/quiz_logo"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="100dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/round_startbtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/howtoplay"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="How to play ?"
+        android:layout_below="@+id/topics"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/round_green"
+        />
+
+</RelativeLayout>
+
